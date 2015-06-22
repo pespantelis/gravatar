@@ -127,10 +127,13 @@ class Factory
     }
 
     /**
+     * @param  string  $email
      * @return bool
      */
-    public function exists()
+    public function exists($email = null)
     {
+        if ($email) $this->url($email);
+
         $this->defaultImage('404');
 
         $url = $this->build();

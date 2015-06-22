@@ -96,8 +96,7 @@ class GravatarTest extends PHPUnit_Framework_TestCase
     {
         $this->assertTrue($this->gravatar->exists());
 
-        $this->gravatar->url('foo@bar.baz');
-        $this->assertFalse($this->gravatar->exists());
+        $this->assertFalse($this->gravatar->exists('foo@bar.baz'));
     }
 
     /** @test **/
