@@ -1,0 +1,23 @@
+{
+    "name": "pespantelis/gravatar",
+    "description": "Gravatar url builder",
+    "keywords": ["gravatar", "identicon"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pantelis Peslis",
+            "email": "pespantelis@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Peslis\\Gravatar\\": "src/"
+        }
+    }
+}
