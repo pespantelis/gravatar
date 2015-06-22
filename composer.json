@@ -1,7 +1,7 @@
 {
     "name": "pespantelis/gravatar",
     "description": "Gravatar url builder",
-    "keywords": ["gravatar", "identicon"],
+    "keywords": ["gravatar", "identicon", "laravel"],
     "license": "MIT",
     "authors": [
         {
